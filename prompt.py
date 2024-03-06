@@ -1,7 +1,7 @@
 import lower_split
 
 def report_count(token):
-    f = open("ada-lovelace.txt", "r")
+    f = open("corpus.txt", "r")
     string = f.read()
     string = lower_split.lower_split(string)
     count = 0
